@@ -1,0 +1,22 @@
+{
+  "name": "prompthangman",
+  "version": "1.0.0",
+  "description": "prompt executed hang man game",
+  "main": "letter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anxiolydiot/promptHangman-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anxiolydiot/promptHangman-/issues"
+  },
+  "homepage": "https://github.com/anxiolydiot/promptHangman-#readme",
+  "dependencies": {
+    "prompt": "^0.2.14"
+  }
+}
