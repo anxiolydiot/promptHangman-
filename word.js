@@ -13,19 +13,17 @@ var Letter= require("./letter.js'";
   this.checkIfLetterFound = function (guessLetter){
     var letterFound = 0;
     var chars = this.lets[i];
+    var anyCase = toLowerCase();
     for (i = 0; i <this.lets.length; i++){
-      if (chars.charac === guessLetter){
+      if (chars.charac.anyCase === guessLetter.anyCase){
           chars.appear === true;
           letterFound ++;
 
 
       }
-    }
+    };
 
     return letterFound;
     
-
-
-
   
-    }
+    },
